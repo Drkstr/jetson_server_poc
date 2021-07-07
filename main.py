@@ -13,7 +13,7 @@ def health():
 @app.route('/readJson')
 def read_json():
     json_file = open("test.json",)
-    return json.loads(json_file)
+    return json.loads(json_file.read())
 
 
 if __name__ == '__main__':

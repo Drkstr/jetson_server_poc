@@ -1,11 +1,17 @@
+import json
 from flask import Flask
 
 app = Flask(__name__)
 
 
-@app.route('/')
-def index():
-    return 'Hello world'
+@app.route('/health')
+def health():
+    return 'All systems are go!'
+
+
+@app.route('/readJson')
+def health():
+    return json.loads("test.json")
 
 
 if __name__ == '__main__':

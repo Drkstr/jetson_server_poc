@@ -18,7 +18,7 @@ def read_json():
 
 
 @app.route('/getImage')
-def read_json():
+def get_image():
     return send_file("test_image.jpeg", mimetype='image/gif')
 
 

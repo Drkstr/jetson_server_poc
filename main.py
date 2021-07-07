@@ -1,7 +1,7 @@
 import json
-
 import flask
 from flask import Flask
+from flask import send_file
 
 app = Flask(__name__)
 
@@ -17,5 +17,10 @@ def read_json():
     return flask.jsonify(json.loads(json_file.read()))
 
 
+@app.route('/getImage')
+def read_json():
+    return send_file("test_image.jpeg", mimetype='image/gif')
+
+
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0')
+    app.run(debug=False, host='0.0.0.0')

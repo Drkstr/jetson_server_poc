@@ -1,5 +1,6 @@
 import json
 
+import flask
 from flask import Flask
 
 app = Flask(__name__)
@@ -12,8 +13,8 @@ def health():
 
 @app.route('/readJson')
 def read_json():
-    json_file = open("test.json",)
-    return json.loads(json_file.read())
+    json_file = open("test.json", )
+    return flask.jsonify(json.loads(json_file.read()))
 
 
 if __name__ == '__main__':

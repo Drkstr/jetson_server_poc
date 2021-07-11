@@ -6,12 +6,17 @@ from flask import send_file
 app = Flask(__name__)
 
 
+@app.route('/')
+def name():
+    return 'Jetson 1'
+
+
 @app.route('/health')
 def health():
     return 'All systems are go!'
 
 
-@app.route('/readJson')
+@app.route('/getJson')
 def read_json():
     json_file = open("test.json", )
     return flask.jsonify(json.loads(json_file.read()))

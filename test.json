@@ -1,5 +1,46 @@
 {
-  "field_1": "test_1",
-  "field_2": "test_2",
-  "field_3": "test_3"
-}
+   "state": "running",
+   "times": {
+     "now": "current time according to the camera",
+     "last_capture": "system time of last .svo capture",
+     "next_capture": "next scheduled capture",
+     "last_upload": "1626444219",
+     "next_upload": "1626444600"
+   },
+   "filenames": {
+     "svo_files": [
+       "123.svo",
+       "122.svo"
+     ],
+     "log_files": [
+       "123.log",
+       "122.log"
+     ],
+     "siteSettings_files": [
+       "123.log",
+       "122.log"
+     ]
+   },
+   "powerStats": {
+     "battery": [
+       {
+         "time": 1626444219,
+         "voltage": 23.1
+       },
+       {
+         "time": 1626444600,
+         "voltage": 23.1
+       }
+     ],
+     "solar": [
+       {
+         "time": 1626444219,
+         "voltage": 23.1
+       },
+       {
+         "time": 1626444600,
+         "voltage": 23.1
+       }
+     ]
+   }
+ }

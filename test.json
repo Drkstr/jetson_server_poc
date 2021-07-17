@@ -2,8 +2,8 @@
    "state": "running",
    "times": {
      "now": 1626444219,
-     "last_capture": "system time of last .svo capture",
-     "next_capture": "next scheduled capture",
+     "last_capture": 1626444219,
+     "next_capture": 1626444600,
      "last_upload": 1626444219,
      "next_upload": 1626444600
    },

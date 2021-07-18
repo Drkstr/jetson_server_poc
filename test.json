@@ -25,21 +25,21 @@
      "battery": [
        {
          "time": "1626444219",
-         "voltage": "23.1"
+         "voltage": 23.1
        },
        {
          "time": "1626444600",
-         "voltage": "23.1"
+         "voltage": 23.1
        }
      ],
      "solar": [
        {
          "time": "1626444219",
-         "voltage": "23.1"
+         "voltage": 23.1
        },
        {
          "time": "1626444600",
-         "voltage": "23.1"
+         "voltage": 23.1
        }
      ]
    }
